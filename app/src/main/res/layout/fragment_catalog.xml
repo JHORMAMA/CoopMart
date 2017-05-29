@@ -1,0 +1,31 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="coopmart.com.coopmart.CatalogFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:fillViewport="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="29dp"
+        android:id="@+id/scrollView2"></ScrollView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true">
+
+        <GridView
+            android:id="@+id/catalog_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+        </GridView>
+
+    </RelativeLayout>
+
+</FrameLayout>
